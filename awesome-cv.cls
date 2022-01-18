@@ -89,7 +89,11 @@
   pdfkeywords={}
 }
 
-
+%Added packages/commands
+\usepackage{aurical}
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes.gates.logic.US,shapes.gates.logic.IEC,calc}
+\newcommand{\autour}[1]{\tikz[baseline=(X.base)]\node [draw=awesome,fill=white,thick,rectangle,inner sep=3pt, rounded corners=2pt] (X) {#1};}
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
 %-------------------------------------------------------------------------------
